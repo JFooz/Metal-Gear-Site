@@ -1,0 +1,32 @@
+/* style pour mon formulaire*/
+
+h1 {
+    
+    color: green;
+    background-color: red;
+}
+
+/* les <li> contenus dans les balises ul */
+ul li {
+    /* retire les points devant les listes */
+    list-style-type: none;
+    
+    /* 
+    display : force un comportement 
+    inline : on peut poser les éléments cote à cote
+    block : on peut modifier la taille 
+    */ 
+    display: inline-block;
+    /* je veux une marge à droite de 20 px*/
+    margin-right: 20px;
+}
+
+ul {
+    border: 1px solid red;
+    /* je ne veux pas de bordure extérieure*/
+    padding: 0px;
+}
+
+a:hover {
+    color: bisque;
+}
